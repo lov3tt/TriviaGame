@@ -37,7 +37,7 @@ p {
     background: green;
     border: 0 none;
     margin: 0 auto;
-    float: left;
+
   }
   #restartB {
     padding: 20px 120px;
@@ -46,7 +46,7 @@ p {
     cursor: pointer;
     background: green;
     border: 0 none;
-    float: left;
+
   }
 
   h1 {
