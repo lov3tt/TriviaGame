@@ -1,0 +1,59 @@
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    padding: 20px;
+}
+
+fieldset {
+    background-image:url("../images/school.png");
+}
+
+p {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#display {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#startButton {
+    padding: 20px 120px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    background: green;
+    border: 0 none;
+    float: left;
+  }
+  #submit {
+    padding: 20px 120px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    background: green;
+    border: 0 none;
+    margin: 0 auto;
+    float: left;
+  }
+  #restartB {
+    padding: 20px 120px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    background: green;
+    border: 0 none;
+    float: left;
+  }
+
+  h1 {
+      text-decoration: underline;
+      color: green;
+  }
+
+  #Result {
+    background-image:url("../images/doodles.png");
+  }

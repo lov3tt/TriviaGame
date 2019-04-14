@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>True or False</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body background="assets/images/swirl_pattern.png">
+    <div class="wrapper">
+        <!-- Show the start button -->
+        <button id="startButton" style="visibility: visible">Start</button>
+
+        <!-- Restart Button -->
+        <button id="restartB" style="visibility: hidden">Restart</button>
+
+
+        <!-- Show the question -->
+        <div id="question">
+
+            <fieldset style="visibility: hidden">
+                <!--show the timer -->
+                <div id="display"></div>
+                <h1>True or False Trivia!</h1>
+
+            </fieldset>
+                    <!-- show the question buttons -->
+        <div id="Result" style="visibility: hidden" >
+                <p id="right"></p>
+                <p id="wrong"></p>
+            </div>
+        </div>
+
+        <!-- Submit button -->
+        <button id="submit" style="visibility: hidden">Submit</button>
+
+
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
